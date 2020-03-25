@@ -17,4 +17,10 @@ public class MyController {
     public String getName() {
         return "赵家伟";
     }
+
+    @GetMapping("getFri")
+    public String getFri(){
+        return "郁露";
+    }
+
 }
