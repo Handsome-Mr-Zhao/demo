@@ -32,4 +32,10 @@ public class MyController {
     public String getWoman() {
         return "nvren";
     }
+
+    @GetMapping("getSalry")
+    public Integer getSalry() {
+        return 666666;
+    }
+
 }
