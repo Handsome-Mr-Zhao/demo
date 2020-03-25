@@ -19,12 +19,17 @@ public class MyController {
     }
 
     @GetMapping("getFri")
-    public String getFri(){
+    public String getFri() {
         return "郁露";
     }
 
     @GetMapping("getMan")
-    public String getMan(){
-        return  "nanren";
+    public String getMan() {
+        return "nanren";
+    }
+
+    @GetMapping("getWoman")
+    public String getWoman() {
+        return "nvren";
     }
 }
