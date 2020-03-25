@@ -23,4 +23,8 @@ public class MyController {
         return "郁露";
     }
 
+    @GetMapping("getMan")
+    public String getMan(){
+        return  "nanren";
+    }
 }
